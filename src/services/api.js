@@ -1,9 +1,8 @@
 import axios from 'axios';
 
-const API_URL = 'https://deploy-backend-0dab.onrender.com/api';
 
 const api = axios.create({
-  baseURL: API_URL,
+  baseURL: 'https://deploy-backend-0dab.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
